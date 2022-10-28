@@ -1,0 +1,185 @@
+    @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+    
+    body {
+        font-family: 'Roboto';
+        height: 100vh;
+        padding: 0;
+        margin: 0;
+        background: #E5E5E5;
+    }
+    
+    input[type=text],
+    input[type=email],
+    input[type=number],
+    select {
+        height: 38px;
+        border-radius: 6px;
+        border: 1px solid #e4e4e4;
+        transition: border 0.25s ease;
+        padding: 0 10px;
+        font-size: 15px;
+        box-sizing: border-box;
+    }
+    
+    select {
+        padding: 0;
+    }
+    
+    input:focus,
+    select:focus {
+        border: 1px solid #007BFF;
+        outline: none;
+    }
+    
+    label {
+        font-size: 15px;
+        font-weight: 400;
+        color: #545454;
+        margin-bottom: 7px;
+    }
+    
+    .row {
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+    
+    .input_wrapper {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        margin-top: 20px;
+    }
+    
+    .container {
+        display: flex;
+        width: 100%;
+        margin: 20px 0;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    form {
+        background: #FFFFFF;
+        border-radius: 6px;
+        padding: 35px 35px 16px 35px;
+        flex: 1;
+        margin: 30px;
+    }
+    
+    .email_hint {
+        font-size: 13px;
+        color: #969696;
+        font-weight: 400;
+        margin-top: 7px;
+    }
+    
+    input[type=radio] {
+        color: #545454;
+        transform: scale(1.5);
+        margin: 20px 0;
+        margin-right: 8px;
+    }
+    
+    .radio_wrapper {
+        gap: 20px;
+    }
+    
+    button {
+        width: 100%;
+        height: 38px;
+        border-radius: 6px;
+        background-color: #007BFF;
+        color: white;
+        font-size: 15px;
+        margin-top: 20px;
+        margin-bottom: 22px;
+        border: none;
+    }
+    
+    .privacypolicy {
+        display: flex;
+        justify-content: center;
+        font-size: 13px;
+        line-height: 18px;
+        text-align: center;
+        color: #969696;
+    }
+    
+    a {
+        color: #007BFF;
+    }
+    
+    h2 {
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    
+    hr {
+        background: #E4E4E4;
+    }
+    
+    .login {
+        justify-content: center;
+        font-size: 15px;
+        color: #545454;
+    }
+    
+    .login a {
+        font-weight: bolder;
+    }
+    
+    #file {
+        display: none;
+    }
+    
+    .file {
+        display: flex;
+        align-items: center;
+    }
+    
+    .file label {
+        position: absolute;
+        position: absolute;
+        right: 0px;
+        top: 4px;
+        cursor: pointer;
+        cursor: pointer;
+    }
+    
+    .file input {
+        padding-right: 40px;
+        height: 30px;
+    }
+    
+    .trash {
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #E4E4E4;
+        border-radius: 6px;
+        background-color: transparent;
+        margin: 0;
+        padding: 4px;
+    }
+    
+    .trash:hover {
+        border: 2px solid #ff206e;
+    }
+    
+    .input_with_image {
+        position: relative;
+        display: flex;
+    }
+    
+    .update_button {
+        width: 150px;
+    }
